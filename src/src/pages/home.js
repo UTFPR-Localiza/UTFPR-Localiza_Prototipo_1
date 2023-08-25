@@ -1,5 +1,5 @@
 import React, {useRef, useState, useEffect} from 'react';
-import { View, Text, Button, SafeAreaView, TextInput, StyleSheet } from 'react-native';
+import { View, Text, Button, SafeAreaView, StatusBar, StyleSheet } from 'react-native';
 
 import { SelectList } from 'react-native-dropdown-select-list';
 
@@ -41,6 +41,10 @@ export function HomeScreen({ navigation }) {
 
   return (
       <SafeAreaView style={styles.Container}>
+        <StatusBar
+          animated={true}
+          hidden={false}
+        />
         <View>
           <SelectList 
             setSelected={(val) => setSelected1(val)} 

@@ -1,0 +1,72 @@
+npm install -g expo-cli
+
+- As rotas funcionam, o segredo é Apertar em "GO" e depois mudar de andar para que seja atualizado o array em ControlData.
+
+- Chefe de gabinete até Gabinete do diretor:
+
+Array [
+  Object {
+    "buid": "building_b7df418b-ab27-4f21-b81c-48b1d2cca2f0_1663183099555",
+    "floor_number": "0",
+    "lat": "-23.186249630903234",
+    "lon": "-50.65538094053963",
+    "pois_type": "Office",
+    "puid": "poi_7e71942f-8035-4cf7-8f26-17ba7a943e74",
+  },
+  Object {
+    "buid": "building_b7df418b-ab27-4f21-b81c-48b1d2cca2f0_1663183099555",
+    "floor_number": "0",
+    "lat": "-23.186272409266472",
+    "lon": "-50.65540244778044",
+    "pois_type": "None",
+    "puid": "poi_7e22fb36-a2bd-45a6-a902-99bb1493d326",
+  },
+  Object {
+    "buid": "building_b7df418b-ab27-4f21-b81c-48b1d2cca2f0_1663183099555",
+    "floor_number": "0",
+    "lat": "-23.18629472175397",
+    "lon": "-50.65540135303055",
+    "pois_type": "None",
+    "puid": "poi_d5490da1-67d8-4d47-ae44-ac7e8c12fef1",
+  },
+  Object {
+    "buid": "building_b7df418b-ab27-4f21-b81c-48b1d2cca2f0_1663183099555",
+    "floor_number": "0",
+    "lat": "-23.186313553395827",
+    "lon": "-50.6553994302953",
+    "pois_type": "None",
+    "puid": "poi_2d579694-718e-4d38-a978-92a9ace2756d",
+  },
+  Object {
+    "buid": "building_b7df418b-ab27-4f21-b81c-48b1d2cca2f0_1663183099555",
+    "floor_number": "0",
+    "lat": "-23.186348375789173",
+    "lon": "-50.65536813020318",
+    "pois_type": "Office",
+    "puid": "poi_1c7a288c-d9bc-4196-85d9-23bccbf3b81b",
+  },
+]
+
+/--------------------------------------------\
+Array [
+  Object {
+    "latitude": -23.186249630903234,
+    "longitude": -50.65538094053963,
+  },
+  Object {
+    "latitude": -23.186272409266472,
+    "longitude": -50.65540244778044,
+  },
+  Object {
+    "latitude": -23.18629472175397,
+    "longitude": -50.65540135303055,
+  },
+  Object {
+    "latitude": -23.186313553395827,
+    "longitude": -50.6553994302953,
+  },
+  Object {
+    "latitude": -23.186348375789173,
+    "longitude": -50.65536813020318,
+  },
+]
