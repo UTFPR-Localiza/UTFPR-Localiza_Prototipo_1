@@ -58,6 +58,7 @@ Array [
     "longitude": -50.65540244778044,
   },
   Object {
+
     "latitude": -23.18629472175397,
     "longitude": -50.65540135303055,
   },
@@ -70,3 +71,21 @@ Array [
     "longitude": -50.65536813020318,
   },
 ]
+
+/-------------------------------------------\
+Planejamento:
+- Remover algoritmos do servidor grego 
+- Desenvolver algoritmos para rotas pré-definidas
+- Add mapeamento básico e nome de outros blocos
+- Criar rotas da feira de profissões
+- Atualizar nomes das salas
+- Criar design
+- Implementar o design
+
+/-------------------------------------------\
+Futuro:
+- QRCode auxilio ao GPS
+- Rotas por todo o campus
+
+
+
