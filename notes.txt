@@ -86,6 +86,11 @@ Planejamento:
 Futuro:
 - QRCode auxilio ao GPS
 - Rotas por todo o campus
+- Melhorar GPS. Loop de 7 segundos é errado
 
+
+-------------------
+- Para as rotas pré-definidas falta apenas colocar as rotas na pasta DATA 
+e então fazer uma função que jogue elas routesControlData do ControlData.
 
 

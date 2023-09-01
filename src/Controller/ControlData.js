@@ -22,6 +22,8 @@ import {
   blocoA__1,
   blocoB__1 } from './controlApi';
 
+let andarAtual = 0;
+
 //apagar
 import routes from '../DATA/API/routes';
 
@@ -29,7 +31,16 @@ import routes from '../DATA/API/routes';
 export var poisData = [], routesData = [], paredesData = [];
 
 //Funções Mapa base
+export function selecaoRotasDoAndar(andar){
+  routesData = [];
+  routesControlData.map((data)=>{
+    if(data.floor_number===andar){
+      routesData.push(data);
+    }
+  });
+}
 export function getAndar0(){
+  andarAtual = "0";
   //GeoJson
   paredesData = campus_andar_0;
   //Pontos de interesse
@@ -55,15 +66,11 @@ export function getAndar0(){
       poisData.push(poi);
   })
   //rotas
-  routesData = [];
-  routesControlData.map((data)=>{
-    if(data.floor_number==="0"){
-      routesData.push(data);
-    }
-  });
+  selecaoRotasDoAndar(andarAtual);
 }
 
 export function getAndar1(){
+  andarAtual = "1";
   //GeoJson
   paredesData = campus_andar_1;
   //Pontos de interesse
@@ -89,14 +96,10 @@ export function getAndar1(){
       poisData.push(poi);
   })
   //rotas
-  routesData = [];
-  routesControlData.map((data)=>{
-    if(data.floor_number==="1"){
-      routesData.push(data);
-    }
-  });
+  selecaoRotasDoAndar(andarAtual);
 }
 export function getAndar_1(){
+  andarAtual = "-1";
   //GeoJson
   paredesData = campus_andar__1;
   //Pontos de interess
@@ -110,12 +113,7 @@ export function getAndar_1(){
       poisData.push(poi);
   })
   //rotas
-  routesData = [];
-  routesControlData.map((data)=>{
-    if(data.floor_number==="-1"){
-      routesData.push(data);
-    }
-  });
+  selecaoRotasDoAndar(andarAtual);
 }
 
 //Funções gps
